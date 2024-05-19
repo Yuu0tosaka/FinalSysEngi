@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    background-image: url('/images/hogwarts.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-card {
+    background: gray;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.details-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.product-detail {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: gray;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.product-detail img {
+    max-width: 100%;
+    height: auto;
+}
+
+.notification {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border-radius: 5px;
+}
